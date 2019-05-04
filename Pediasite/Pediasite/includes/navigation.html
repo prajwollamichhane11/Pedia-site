@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+	<title>
+		
+	</title>
+</head>
+<body>
+	<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+ <a class="navbar-brand" href="index.php"><img src="img/logo.png" style="width: 60px; height: 60px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">Home </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="login_doctor.php">For Doctors</a>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="blog.php">Blog</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Department</a>
+           </li>  
+           <li class="nav-item">
+             <a class="nav-link" href="news.php">News</a>
+           </li>  
+           <li class="nav-item">
+             <a class="nav-link" href="contact_us.php">Contact Us</a>
+           </li>  
+        </ul>
+
+
+
+  <span class="navbar-item">
+
+        <div class="dropdown">
+          <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+               Options
+                </button>
+                 <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Option 1</a>
+                    <a class="dropdown-item" href="#">Option 2</a>
+                    <a class="dropdown-item" href="#">Option 3</a>
+                </div>
+        </div>
+     </span>
+          <button type="button" class="btn btn-primary">
+            Book an Appointment
+          </button> 
+    <a  href="#">
+    <span class="navbar-text">
+    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#login_popup">
+    Log in
+  
+      <img src="img/login_icon.png" style="width: 50px; height: 50px;">
+      </button>
+    </span>
+    </a>
+
+</div>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+  
+
+
+
+  <!-- The Modal -->
+  <div class="modal fade" id="login_popup">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+        
+            <h4 class="modal-title">Patient Log in</h4>
+        
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+                  <center> <img src="p.png" class="rounded-circle" alt="patients" style="height: 200px; width: 200px;"></center> 
+        
+
+
+          <form action="" method="POST">
+           <!-- form for email-->
+            <div class="form-group">
+              <label for="email">Email address:
+              </label>
+              <input type="email" class="form-control" id="email" placeholder="username or email">
+            </div>
+
+
+                <!-- form for password-->
+               <div class="form-group">
+             <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="password">
+             </div>
+
+
+             <button type="submit" class="btn btn-primary">Log In</button>
+           </form>
+        </div>
+      
+          <button type="button" class="btn btn-light" data-toggle="modal" data-target="#login_popup">
+            <a href="sign_up.html">
+              Haven't got account?
+            </a>
+          </button>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
